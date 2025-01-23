@@ -1,3 +1,43 @@
+//1
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите целое число: ");
+//        int number = scanner.nextInt();
+//        if (number % 2 == 0) {
+//            System.out.println("Четное");
+//        } else {
+//            System.out.println("Не четное");
+//        }
+//        scanner.close();
+//    }
+//}
+
+//2
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите 1 число: ");
+//        int num1 = scanner.nextInt();
+//        System.out.print("Введите 2 число: ");
+//        int num2 = scanner.nextInt();
+//        System.out.print("Введите 3 число: ");
+//        int num3 = scanner.nextInt();
+//        int min =num1;
+//        if (num2<min ) {
+//            min=num1;
+//        }
+//        if (num3< min){
+//            min=num3;
+//        }
+//        System.out.println("Минимальное число: "+ min);
+//
+//        scanner.close();
+//    }
+//}
+
 //3
 // import java.util.Scanner;
 //public class Main {
@@ -142,3 +182,83 @@
 //    }
 //}
 //14
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите размер массива: ");
+//        int size = scanner.nextInt();
+//        if (size <= 0) {
+//            System.out.println("Размер массива должен быть больше 0.");
+//            return;
+//        }
+//        int[] array = new int[size];
+//        System.out.println("Введите элементы массива:");
+//        for (int i = 0; i < size; i++) {
+//            array[i] = scanner.nextInt();
+//        }
+//        int max = array[0];
+//        for (int i = 1; i < size; i++) {
+//            if (array[i] > max) {
+//                max = array[i];
+//            }
+//        }
+//        System.out.println("Максимальное число в массиве: " + max);
+//    }
+//}
+//15
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите размер массива: ");
+//        int size = scanner.nextInt();
+//        if (size <= 0) {
+//            System.out.println("Размер массива должен быть больше 0.");
+//           return;
+//       }
+//        int[] array = new int[size];
+//        System.out.println("Введте элементы массива: ");
+//        for( int i = 0; i <size ; i++ ){
+//            array[i]= scanner.nextInt();
+//        }
+//        int sum = 0;
+//        for( int num : array){
+//            sum +=num;
+//        }
+//        System.out.println("Сумма всех элементов массива : "+ sum);
+//   }
+//}
+//16
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[]args){
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Введите колличеств чисел в массиве: ");
+//        int size= scanner.nextInt();
+//        if (size <= 0 ){
+//            System.out.println("Колличество чисел должно быть больше 0 ");
+//        }
+//        int[] array = new int[size];
+//        System.out.println("Введите элементы массива:");
+//        for (int i = 0; i < size; i++) {
+//            System.out.print("Элемент " + (i + 1) + ": ");
+//            array[i] = scanner.nextInt(); // Считываем каждый элемент массива
+//        }
+//    int pol = 0;
+//    int otr = 0;
+//        for( int num : array){
+//            if(num >0 ){
+//                pol++;
+//            }
+//         else if (num<0){
+//             otr++;
+//            }
+//        }
+//        System.out.println("Количество положительных чисел: " + pol);
+//        System.out.println("Количество отрицательных чисел: " + otr);
+//        scanner.close();
+//    }
+//}
+//17
+
